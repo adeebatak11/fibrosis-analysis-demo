@@ -36,3 +36,20 @@ Conduct quality assessments on the integrated dataset. Verify successful joins a
 Generate descriptive statistics and visualizations. Create patient flow diagrams showing data availability across visits and domains. Produce summary tables of baseline characteristics stratified by fibrosis severity. Generate correlation heatmaps between domains and principal component analysis (PCA) plots to visualize overall data structure. Create plots to examine outcome distributions across key covariates. Assess temporal patterns in longitudinal data and identify potential confounders or effect modifiers. Generate preliminary univariate associations between each domain and fibrosis outcomes to guide variable selection strategies.
 
 **8. Statistical analysis:** This will be the final step, and perhaps the most extensive one. Begin with a first-pass, sparse model and then informed by prior scholarship in the field (annotated bibliographies), data-driven sample size and variable selection, and expertise from the PI and other RA's, the best modeling strategies will be evaluated. Model interpretation, calibration, and validation will follow. A plan for scaling-up may also be created.
+
+---
+
+## Appendix: Tools and Libraries
+Analyses will be conducted using reproducible, open-source environments:
+
+- **R** – data wrangling, statistical modeling, and visualization  
+  - Key packages: `tidyverse`, `data.table`, `broom`, `ggplot2`, `caret`, `glmnet`, `phyloseq`, `compositions`, `sva`, `WGCNA`, `MOFA2`, `mixOmics`
+- **Python** – supplementary data integration and automation  
+  - Key libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `statsmodels`, `biom-format`, `pycombat`
+- **SAS** – supplementary statistical computing as needed  
+  - Procedures: `PROC PRINCOMP`, `PROC GLMSELECT`, `PROC LOGISTIC`, `PROC PLS`
+- **Version control:** Git & GitHub
+- **Documentation:** Quarto / Jupyter Notebooks for reproducible reporting  
+- **Environment management:** `renv` (R) and `conda` (Python)
+
+All analyses will follow Mount Sinai best practices for reproducible research: versioned code, immutable raw data, and metadata-rich outputs.
