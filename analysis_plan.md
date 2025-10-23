@@ -48,7 +48,7 @@ Analyses will be conducted using reproducible, open-source environments:
   - Key libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `statsmodels`, `biom-format`, `pycombat`
 - **SAS** – supplementary statistical computing as needed  
   - Procedures: `PROC PRINCOMP`, `PROC GLMSELECT`, `PROC LOGISTIC`, `PROC PLS`
-- **SQL** – queriying data, especially relevant at data ingestion.
+- **SQL** – querying data, especially relevant at data ingestion.
 - **Version control:** Git & GitHub
 - **Documentation:** Quarto / Jupyter Notebooks for reproducible reporting  
 - **Environment management:** `renv` (R) and `conda` (Python)
