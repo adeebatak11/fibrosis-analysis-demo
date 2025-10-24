@@ -1,7 +1,6 @@
 # MASH Fibrosis Demo
 
-This repository contains a brief demo data analysis plan for 
-for Zhang's Microbiome Epidemiology lab at Mount Sinai.
+This repository contains a brief demo data analysis plan for Zhang's Microbiome Epidemiology lab at Mount Sinai.
 
 **Contents**
 - `analysis_plan.md` — stepwise outline for integrating diet, microbiome, metabolomic, genomic, and clinical data into analysis ready datasets.
